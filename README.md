@@ -23,20 +23,30 @@ Repertoire      Index         HEAD
 ```
     
 ## Commandes de base
-
+### Commit
 - add [-p]
 - rm [--cached] [–r]
 - commit [-a] [–m] [--amend]
-- status
-- stash [-u]
-- git diff
+- stash [-u]  
+
+### Communication avec les remote
+- git pull [--rebase]
+- git push [-u]  
+
+### Manipulation de l'historique
 - git branch [--contains]
+- git diff
 - git reset
 - git checkout [-b]
 - git rebase [-i]
-- git merge
+- git merge [–-no-ff] [--only-ff]  
+
+### Snapshot de l'historique
+- status
 - git log
-- git reflog
+- git reflog  
+
+### Debuggage
 - git blame [--someone-else]
 - git bisect
 
